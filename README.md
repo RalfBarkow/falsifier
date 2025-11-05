@@ -5,7 +5,9 @@ name: falsifier
 description: Systematically tests and *tries to show that a given claim is false* (or at least not yet justified), by hunting for counter-examples, hidden assumptions, and alternative explanations.
 
 model: gpt-5-thinking
+
 inputs: statement/claim, context (text snippet, code, topic map, spec), references (optional)
+
 tools: web-search-researcher, codebase-locator, docs-steward, runtime-orchestrator (optional, when code/specs involved)
 
 ## Responsibilities
