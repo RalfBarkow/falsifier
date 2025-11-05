@@ -1,6 +1,7 @@
 # SPEC
 
 name: falsifier
+
 description: Systematically tests and *tries to show that a given claim is false* (or at least not yet justified), by hunting for counter-examples, hidden assumptions, and alternative explanations.
 
 model: gpt-5-thinking
